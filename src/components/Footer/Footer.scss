@@ -1,0 +1,99 @@
+.footer {
+    background: #1C1D1F;
+
+    .footer-blocks {
+        display: flex;
+        justify-content: space-between;
+        padding: 124px 0 0 24px;
+
+        .title {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            letter-spacing: 0.1px;
+            color: #9098A0;
+        }
+
+        .block-list {
+            list-style-type: none;
+            margin-top: 5px;
+        }
+
+        .block-item {
+            a {
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                text-decoration: none;
+                margin: 10px 0;
+                display: block;
+
+                letter-spacing: 0.1px;
+                color: #666B71;
+            }
+
+            .start-btn {
+                font-style: normal;
+                font-weight: 400;
+                font-size: 15px;
+                display: inline-block;
+                margin-top: 15px;
+                padding: 11px 103px;
+                background: #266DF0;
+                border-radius: 12px;
+                cursor: pointer;
+                border: none;
+                letter-spacing: 0.3px;
+                color: #FFFFFF;
+            }
+
+            .link {
+                font-style: normal;
+                font-weight: 400;
+                font-size: 15px;
+                text-align: center;
+                text-decoration: none;
+                margin-top: 24px;
+                letter-spacing: 0.3px;
+                color: #9098A0;
+            }
+        }
+    }
+
+    .liner {
+        width: 1200px;
+        height: 1px;
+        margin-top: 72px;
+        background: #3F3F3F;
+    }
+
+    .footer-inner {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 20px;
+    }
+
+    .right {
+        span {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            text-align: center;
+            letter-spacing: 0.1px;
+            color: rgba(255, 255, 255, 0.48);
+        }
+    }
+
+    .left {
+        a {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 13px;
+            letter-spacing: 0.1px;
+            text-decoration: none;
+            margin: 0 10px;
+            color: rgba(255, 255, 255, 0.48);
+        }
+    }
+}

@@ -1,0 +1,197 @@
+.time {
+    background: #F3F4F5;
+
+    .time-inner {
+        padding-top: 90px;
+
+        .btn {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 12px;
+            display: block;
+            margin: 0 auto;
+            padding: 6px 11px;
+            letter-spacing: 0.1px;
+            text-transform: uppercase;
+            color: #7D60FF;
+            border: 1px solid #7D60FF;
+            border-radius: 30px;
+            cursor: pointer;
+        }
+
+        .title {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 48px;
+            line-height: 50px;
+            margin: 0 auto;
+            margin-top: 24px;
+            letter-spacing: 0.5px;
+            width: 612px;
+            color: #31373D;
+        }
+
+        .text-1 {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            letter-spacing: 0.4px;
+            text-align: center;
+            padding-top: 9px;
+            color: #555E67;
+        }
+
+        .text-2 {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            letter-spacing: 0.4px;
+            text-align: center;
+            color: #555E67;
+        }
+
+        .time-link {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px;
+            letter-spacing: 0.3px;
+            color: #FFFFFF;
+            display: inline-block;
+            padding: 11px 16px;
+            margin: 20px 0 60px 500px;
+            text-decoration: none;
+            background: #383E47;
+            border-radius: 12px;
+        }
+    }
+
+    .users {
+        display: flex;
+        justify-content: space-between;
+        background: #FFFFFF;
+        border: 1px solid #F3F4F5;
+        border-radius: 24px;
+    }
+
+    .block-1 {
+        padding: 40px 0 0 41px;
+
+        .title-1 {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 27px;
+            letter-spacing: 0.2px;
+            color: #31373D;
+        }
+
+        .title-2 {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 28px;
+            letter-spacing: 0.2px;
+            color: #31373D;
+        }
+
+        .text {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 22px;
+            letter-spacing: 0.3px;
+            padding-top: 17px;
+            color: #727B84;
+        }
+    }
+
+    .block-2 {
+        .users-info {
+            width: 684px;
+            height: 469px;
+            padding-top: 60px;
+        }
+    }
+
+    .works {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 24px;
+        padding-bottom: 90px;
+
+        .work__block-1 {
+            background: #FFFFFF;
+            border: 1px solid #F3F4F5;
+            border-radius: 24px;
+
+            .title {
+                padding: 41px 0 0 41px;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 28px;
+                line-height: 29px;
+                width: 452px;
+                letter-spacing: 0.2px;
+                color: #31373D;
+            }
+
+            .text {
+                font-style: normal;
+                font-weight: 400;
+                padding-left: 41px;
+                font-size: 15px;
+                line-height: 22px;
+                width: 499px;
+                padding-top: 17px;
+                letter-spacing: 0.3px;
+                color: #727B84;
+            }
+
+            .user-info {
+                width: 680px;
+                height: 320px;
+                padding-top: 39px;
+            }
+        }
+
+        .work__block-2 {
+            background: #FFFFFF;
+            border: 1px solid #F3F4F5;
+            border-radius: 24px;
+
+            .title-1 {
+                font-style: normal;
+                font-weight: 400;
+                font-size: 28px;
+                letter-spacing: 0.2px;
+                padding: 41px 0 0 41px;
+                color: #31373D;
+            }
+
+            .title-2 {
+                font-style: normal;
+                font-weight: 400;
+                font-size: 28px;
+                line-height: 29px;
+                padding: 0 0 0 41px;
+                letter-spacing: 0.2px;
+                color: #31373D;
+            }
+
+            .text {
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                letter-spacing: 0.3px;
+                padding: 17px 0 0 41px;
+                width: 362px;
+                height: 45px;
+                color: #727B84;
+            }
+
+            .work__info-img {
+                width: 444px;
+                height: 359px;
+                padding-top: 10px;
+            }
+        }
+    }
+}
