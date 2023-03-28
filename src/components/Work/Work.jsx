@@ -7,6 +7,7 @@ function Work() {
     <div>
       <section className='work'>
         <Container>
+          <div className="work-inner">
           <button className='work-btn'>02. Build</button>
           <h2 className='work-title'>The CRM that's truly your own.</h2>
           <p className='text-1'>Tweak anything and everything to ensure Attio fits your business,</p>
@@ -27,6 +28,7 @@ function Work() {
             </div>
           </div>
           <div className="buldi__info-photo"></div>
+          </div>
         </Container>
       </section>
     </div>

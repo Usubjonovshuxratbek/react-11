@@ -10,12 +10,12 @@ function AboutInner() {
                 <div className="box">
                     <div className="box-inner">
                         <div className="info">
-                        <h2>Ready to build your <br /> team's dream CRM?</h2>
-                        <div className="white"></div>
+                            <h2>Ready to build your <br /> team's dream CRM?</h2>
+                            <div className="white"></div>
                         </div>
                         <div className="img">
                             <img src={Img} alt="" />
-                    </div>
+                        </div>
                     </div>
                 </div>
             </Container>

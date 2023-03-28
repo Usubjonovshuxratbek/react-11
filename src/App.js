@@ -1,6 +1,7 @@
 import './App.css';
 import AboutInner from './components/About-inner/About-inner';
 import About from './components/About/About';
+import Cart from './components/Cart/Cart';
 import Collaborate from './components/Collaborate/Collaborate';
 import Footer from './components/Footer/Footer';
 import Header from './components/Header/Header';
@@ -20,6 +21,7 @@ function App() {
       <Time />
       <Work />
       <Collaborate />
+      <Cart />
       <About />
       <AboutInner />
       <Footer />
